@@ -1,12 +1,12 @@
 Feature: Login feature
 
-  @librarian
+  @smoke@librarian
   Scenario: Login as a librarian
     Given I am on the login page
     When I login as a librarian
     Then dashboard should be displayed
 
-  @student
+ @smoke @student
   Scenario: Login as a student
     Given I am on the login page
     When I login as a student
